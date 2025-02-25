@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./asster/css/logon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Login - Leskin</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="logo">
+        <img src="./asster/img/logo.png" alt="Leskin Logo" />
+      </div>
+      <form class="logon-form" action="login_process.php" method="POST">
+        <div class="input-group">
+          <label for="username"><i class="fa fa-user"></i></label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Tên đăng nhập"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password"><i class="fa fa-unlock-alt"></i></label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Mật khẩu"
+            required
+          />
+        </div>
+        <button type="submit" class="logon-btn">Đăng nhập</button>
+      </form>
+      <div class="footer">
+        <a href="#">Quên mật khẩu</a>
+        <a href="register.html" class="register-link">Đăng ký</a>
+      </div>
+    </div>
+  </body>
+</html>

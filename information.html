@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asster/css/reset.css" />
+    <link rel="stylesheet" href="./asster/css/information.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login - Leskin</title>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="nav-img">
+        <img src="asster/img/logo.png" alt="" />
+      </div>
+
+      <div class="nav-from">
+        <input type="text" placeholder="Hôm nay bạn muốn làm gì..." />
+        <button type="button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="nav-item">
+        <ul>
+          <li>
+            <a href="Trang chủ">
+              <i class="fa fa-home"></i> <span> Trang chủ</span></a
+            >
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-info-circle"></i> <span>Giới thiệu</span></a
+            >
+          </li>
+          <li>
+            <a href=""><i class="fa fa-gift"></i> <span>Ưu đãi</span></a>
+          </li>
+          <li>
+            <a href=""> <i class="fa fa-bullhorn"></i> <span>Tin tức</span></a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa-regular fa-envelope"></i> <span> Liên hệ</span></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <from class="nav-btn">
+        <button>
+          <img src="./asster/img/avt-demo2.png" alt="" />UseName
+          <i class="fa-solid fa-angle-down"></i>
+        </button>
+      </from>
+    </div>
+    <hr />
+
+    <div class="breadcrumb">
+      <a href="index.html">Trang chủ</a> &gt; <a href="#">Liên hệ</a>
+    </div>
+
+    <div class="contenact">
+      <div class="slide">
+        <h1>THÔNG TIN TÀI KHOẢN</h1>
+        <ul>
+          <li class="active"><i class="icon">👤</i> Thông tin cá nhân</li>
+          <li><i class="icon">🔒</i> Thông tin bảo mật</li>
+          <li><i class="icon">💳</i> Thông tin ví</li>
+          <li><i class="icon">🕒</i> Lịch sử giao dịch</li>
+          <li><i class="icon">📜</i> Điều khoản sử dụng</li>
+          <li><i class="icon">📖</i> Hướng dẫn sử dụng</li>
+          <li><i class="icon">⬅️</i> Đăng xuất</li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="header">
+          <h2>Thông Tin Cá Nhân</h2>
+          <a href="#" class="edit-link">Chỉnh sửa</a>
+        </div>
+        <div class="from-content">
+          <from>
+            <div class="from-group">
+              <label for="fullname">Họ và tên</label>
+              <input type="text" id="fullname" placeholder="Nhập họ và tên" />
+            </div>
+            <div class="from-group">
+              <label for="idnumber">Số CMND/CCCD</label>
+              <input
+                type="text"
+                id="idnumber"
+                placeholder="Nhập số CMND/CCCd"
+              />
+            </div>
+            <div class="from-group">
+              <label for="dob">Ngày sinh</label>
+              <select name="" id="dod-day">
+                <option value="">16</option>
+              </select>
+              <select name="" id="dod-moth">
+                <option value="">6</option>
+              </select>
+              <select id="dod-year">
+                <option value="">1998</option>
+              </select>
+            </div>
+            <div class="from-group">
+              <label style="width: 25%" for="">Giới tính</label>
+              <div class="radio-group" style="margin-left: 0px">
+                <input type="radio" name="male" id="gender" />
+                <label for="male">Nam</label>
+                <input type="radio" name="female" id="gender" />
+                <label for="female">Nữ</label>
+              </div>
+            </div>
+            <div class="from-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Nhập email" />
+            </div>
+            <div class="from-group">
+              <label for="address">Địa chỉ</label>
+              <input type="text" id="address" placeholder="Nhập địa chỉ" />
+            </div>
+            <button type="submit" class="btn-save">Lưu</button>
+            <p class="note">
+              🔏Thông tin cá nhân của quý khách được đảm bảo an toàn
+            </p>
+          </from>
+        </div>
+      </div>
+
+      <div class="profile-photo-container">
+        <div class="photo-wrapper">
+          <img src="https://via.placeholder.com/150" alt="Ảnh đại diện" />
+        </div>
+        <button class="upload-btn">Chọn ảnh</button>
+        <p class="file-info">
+          Dung lượng file tối đa 1 MB<br />Định dạng: JPEG, PNG
+        </p>
+
+        <div class="call-button">
+          <i><img src="./asster/icon/hotline.png" alt="" /></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="brand-logo">
+      <img src="./asster/img/partner-1.png" alt="" />
+      <img src="./asster/img/partner-2.png" alt="" />
+      <img src="./asster/img/partner-3.png" alt="" />
+      <img src="./asster/img/partner-4.png" alt="" />
+      <img src="./asster/img/partner-5.png" alt="" />
+      <img src="./asster/img/partner-6.png" alt="" />
+    </div>
+
+    <footer>
+      <div class="footer-conccent">
+        <div class="footer-column">
+          <hr />
+          <h3>Liên Hệ</h3>
+          <ul>
+            <li><a href="">58 Tố Hữu, Thanh Xuân, Hà Nội</a></li>
+            <li><a href="">(024).3783.5639</a></li>
+            <li>
+              <a href="mailto:info@adcvietnam.net">info@adcvietnam.net</a>
+            </li>
+            <li>
+              <a href="https://www.adcvietnam.net" target="_blank">
+                www.adcvietnam.net</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <hr />
+          <h3>Về LESKIN</h3>
+          <ul>
+            <li><a href="">Về chúng tôi</a></li>
+            <li><a href="">Sứ mệnh</a></li>
+            <li><a href="">Tăng trưởng</a></li>
+            <li><a href="">Quan hệ cổ đông</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <hr />
+          <h3>TẢI APP NGAY</h3>
+          <ul>
+            <li>
+              <img src="./asster/img/app-android.jpg" alt="Google Play" />
+            </li>
+            <li><img src="./asster/img/app-ios.jpg" alt="App Store" /></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <hr />
+          <h3>NEWSLETTER</h3>
+          <p>Đăng ký để nhận ưu đãi hàng tháng</p>
+          <div class="newsletter">
+            <input type="email" placeholder="Nhập email" />
+            <button><img src="/asster/icon/send.png" alt="" /></button>
+          </div>
+          <div class="social-icons">
+            <a href="#"><img src="./asster/icon/facebook.png" alt="" /></a>
+            <a href="#"><img src="./asster/icon/youtube.png" alt="" /></a>
+            <a href="#"><img src="./asster/icon/instagram.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-btn">© 2019 Leskin. All rights reserved.</div>
+    </footer>
+  </body>
+</html>

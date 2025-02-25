@@ -1,0 +1,119 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #fdf4e3, #f9e7d9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.register-container {
+  width: 450px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Logo */
+.logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  font-weight: bold;
+  color: #ffa733;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+  border-bottom: 2px solid #ffa733;
+}
+
+.tab:hover {
+  color: #e28b1d;
+}
+
+/* Input Group */
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.input-group label {
+  font-size: 18px;
+  color: #ffa733;
+  margin-right: 10px;
+}
+
+.input-group input {
+  border: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-group:hover {
+  background: #ffe6cc;
+}
+
+/* Register Button */
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #ffa733;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background: #e28b1d;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #ffa733;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #e28b1d;
+}
